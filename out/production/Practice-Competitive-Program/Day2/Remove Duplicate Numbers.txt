@@ -1,0 +1,21 @@
+Today's Program to solve
+
+Given a string s, remove duplicate letters so that every 
+letter appears once and only once. 
+You must make sure your result is the smallest in 
+lexicographical order among all possible results.
+
+Example 1:
+Input: s = "b c a b c"
+	    1 2 0 1 2
+
+Output: "abc"
+
+
+Example 2:
+
+
+Input: s = "c b a c d c b c"
+	    2 1 0 2 3 2 1 2
+
+Output: "acdb"
