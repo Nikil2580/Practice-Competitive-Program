@@ -8,8 +8,7 @@ public class uniqueCharacter {
         String str = scanner.next();
         int[] hash = new int[256];
         for (int i = 0; i < str.length(); i++) {
-            hash[str.charAt(i) - 'a']++;
-            if (hash[str.charAt(i) - 'a'] == 1)
+            if (hash[str.charAt(i)]++ == 1)
                 System.out.print(str.charAt(i));
         }
         scanner.close();
