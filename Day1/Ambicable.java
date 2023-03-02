@@ -2,7 +2,7 @@ package Day1;
 
 import java.util.Scanner;
 
-public class ambicable {
+public class Ambicable {
     public static int func(int num) {
         int sum = 0;
         for (int i = 1; i < num; i++) {

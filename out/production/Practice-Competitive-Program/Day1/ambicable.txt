@@ -1,0 +1,28 @@
+Proper divisor:
+A proper divisor of a positive integer is any divisor other than itself.
+Let the sum of proper divisors of 'n' be defined as f(n) = a,
+and the sum of proper divisors of 'a' be defined as f(a) = m.
+
+When 'n' and 'm' are equal, 'n' is called an 'amicable number. You are required to implement the following function:
+int amicableNumbers(n)
+
+This function returns: 1, if 'n' is an 'amicable number 0, otherwise No
+
+Assumptions
+
+There are no proper divisors of 1.
+
+Example Input(n):
+220
+
+Output: 1
+
+Explanation:
+The proper divisors of 220 (n) are 1,2,4,5,10,11,20,22,44,55 and 110. This f(220) = 284
+The proper divisors of 284 (a) are 1,2,4,71 and 142. Since f(284) = 220, hence 1 is returned.
+
+Sample Input2 (n)
+221
+
+Sample Output2
+0
